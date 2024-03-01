@@ -1,8 +1,90 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0 auto;
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", "Noto Serif", Arial, "Times New Roman", serif;
+}
+
+.header {
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url(../images/background_header.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
+  cursor: pointer;
+}
+
+.header__title {
+  max-width: 729px;
+  margin-left: 80px;
+  margin-top: 183px;
+}
+
+.header__description {
+  max-width: 683px;
+  margin-left: 80px;
+  margin-top: 28px;
+}
+
+.header__image {
+  position: absolute;
+  max-width: 646px;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  margin-top: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.header__paragraph {
+  margin-top: auto;
 }
