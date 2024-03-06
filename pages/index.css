@@ -300,7 +300,7 @@
   opacity: 0.7;
 }
 
-.fieldset__checkbox {
+.checkbox__fieldset {
   display: flex;
   justify-content: center;
   align-content: center;
