@@ -33,12 +33,3 @@
   color: #1f69c9;
   cursor: pointer;
 }
-
-.span-accent {
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-}
